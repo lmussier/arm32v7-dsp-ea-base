@@ -1,3 +1,3 @@
-FROM resin/armv7hf-debian:jessie
+FROM arm32v7/debian:buster-slim
 
 COPY bin/ /usr/bin/
